@@ -21,7 +21,6 @@ a {
   text-decoration: none;
 }
 
-
 /*Intestazione*/
 header .head {
   margin: auto;
@@ -121,6 +120,7 @@ a {
   padding: 15px;
 }
 
+/*Common attributes*/
 .left-col .org h2,
 .middle-col h2,
 .middle-col p,
@@ -141,7 +141,7 @@ a {
   padding-top: 30px;
 }
 
-/*Colonna destra*/
+/*Colonne destra*/
 .right-col {
   width: 15%;
   background-color: white;
@@ -168,4 +168,44 @@ a {
   padding: 15px;
   float: right;
   margin-right: 15%;
+}
+
+/*Footer*/
+footer {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  padding-top: 2%;
+  float: right;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.foot p {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #666;
+}
+
+.rif ul li {
+  display: inline-block;
+  padding:50px;
+}
+
+.rif ul li a {
+  color: #666;
+  font-size: 50px;
+}
+
+.fb :hover {
+  color: blue;
+}
+
+.insta :hover {
+  color: #f400a1;
+}
+
+.git :hover {
+  color: black;
 }
