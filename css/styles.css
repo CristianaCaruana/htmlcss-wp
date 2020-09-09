@@ -12,6 +12,16 @@ body{
   padding: 1%
 }
 
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 /*Intestazione*/
 header .head {
   margin: auto;
@@ -56,6 +66,106 @@ nav .menu ul li a {
   color: white;
   font-family: Roboto, sans-serif;
   font-size: 15px;
-  text-decoration: none;
   padding: 10px;
+}
+
+/*Corpo della pagina*/
+main::after; {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main {
+  margin-top: 5%;
+}
+
+/*Colonna sinistra*/
+.left-col {
+  width: 15%;
+  background-color: white;
+  float: left;
+  border-radius: 3%;
+  margin-left: 15%;
+  padding: 10px;
+}
+
+.icona {
+  color: orange;
+  font-size: 30px;
+  float: left;
+  width: 20%;
+}
+
+.org {
+  float: left;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+a {
+  color: green;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/*Colonna centrale*/
+.middle-col {
+  width: 30%;
+  background-color: white;
+  margin-right: 5%;
+  margin-left: 5%;
+  float: left;
+  border-radius: 3%;
+  padding: 15px;
+}
+
+.left-col .org h2,
+.middle-col h2,
+.middle-col p,
+.right-col p,
+.right-col h2,
+.right-col-bottom h2,
+.right-col-bottom p,
+.right-col-bottom-1 h2,
+.right-col-bottom-1 p {
+  font-family: Roboto, sans-serif;
+  line-height: 30px;
+}
+
+.middle-col p,
+.right-col p,
+.right-col-bottom p,
+.right-col-bottom-1 p {
+  padding-top: 30px;
+}
+
+/*Colonna destra*/
+.right-col {
+  width: 15%;
+  background-color: white;
+  float: left;
+  border-radius: 3%;
+  padding: 15px;
+}
+
+.right-col-bottom {
+  width: 15%;
+  background-color: white;
+  border-radius: 3%;
+  margin-top: 5%;
+  padding: 15px;
+  float: left;
+  margin-right: 15%;
+}
+
+.right-col-bottom-1 {
+  width: 15%;
+  background-color: white;
+  border-radius: 3%;
+  margin-top: 5%;
+  padding: 15px;
+  float: right;
+  margin-right: 15%;
 }
