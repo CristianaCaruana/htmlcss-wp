@@ -30,3 +30,32 @@ img {
   display: block;
   margin: auto;
 }
+
+header p {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Nav*/
+.nav {
+  background-color: #666;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  line-height: 40px;
+}
+
+nav .menu li {
+  display: inline-block;
+}
+
+nav .menu ul li a {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+}
